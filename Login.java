@@ -17,7 +17,7 @@ public class LoginController {
         String email = emailField.getText();
         String password = passwordField.getText();
 
-        if(email.equals("s68122250088@ssru.ac.th") && password.equals("6569")) {
+        if(email.equals("s68122250095@ssru.ac.th") && password.equals("6767")) {
             messageLabel.setText("Login successful!");
         } else {
             messageLabel.setText("Invalid email or password");
