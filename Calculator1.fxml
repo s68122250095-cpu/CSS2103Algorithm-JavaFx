@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="10" alignment="CENTER"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.calculator.CalculatorController">
+
+    <Label text="Calculator"/>
+
+    <HBox spacing="10">
+        <Label text="First operand:"/>
+        <TextField fx:id="num1"/>
+    </HBox>
+
+    <HBox spacing="10">
+        <Label text="Second operand:"/>
+        <TextField fx:id="num2"/>
+    </HBox>
+
+    <HBox spacing="10">
+        <Button text="Add" onAction="#add"/>
+        <Button text="Subtract" onAction="#subtract"/>
+        <Button text="Multiply" onAction="#multiply"/>
+        <Button text="Divide" onAction="#divide"/>
+    </HBox>
+
+    <HBox spacing="10">
+        <Label text="Result:"/>
+        <TextField fx:id="result"/>
+    </HBox>
+</VBox>
